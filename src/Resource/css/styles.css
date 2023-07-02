@@ -1,0 +1,299 @@
+/* General Styling*/
+li{
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
+li a{
+  text-decoration: none;
+}
+/* frst section styling start here */
+
+
+.links-wrapper ul li a {
+  color: #06c;
+}
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+.links-wrapper ul li a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding: 10px;
+}
+/* first section styling staart here */
+
+
+.first-photo {
+  background-image: url(../Images/Main/SM/iphone14pro_small.jpg);
+
+}
+
+/* second section satart here */
+
+.second-photo-wrapper {
+  background-image: url(../Images/Main/SM/iphone14_mall.jpg);
+
+}
+
+/* third section style */
+
+.third-photo-wrapper {
+  background-image: url(../Images/Main/SM/Creativity_small.jpg);
+
+}
+
+/* fourth section style */
+
+.fourth-left-cover {
+  background-image: url(../Images/Main/SM/apple_watch_series_8_small.jpg);
+}
+.fourth-right-cover {
+  background-image: url(../Images/Main/SM/ipad_small.jpg);
+}
+/* fifth class style */
+
+.fifth-left-cover {
+  background-image: url(../Images/Main/SM/mbp_small.jpg);
+}
+
+/* fifth rignt style */
+
+.fifth-right-cover {
+  background-image: url(../Images/Main/SM/homepod_small.jpg);
+}
+
+/* sixth left cover */
+
+.sixth-left-cover {
+  background-image: url(../Images/Main/SM/airpods_pro_small.jpg);
+
+}
+/* sixth right cover */
+.sixth-right-cover {
+  background-image: url(../Images/Main/SM/Apple-card_small.jpg);
+  
+}
+.sixth-right-cover,.sixth-left-cover,.fifth-right-cover,.fifth-left-cover,.fourth-right-cover,.fourth-left-cover,.third-photo-wrapper,.second-photo-wrapper,.first-photo{
+  height: 470px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px){
+  .first-photo{
+    background-image: url(../Images/Main/Large/iphone14pro__e5xbgo5ffhg2_large.jpg);
+  }
+  .second-photo-wrapper{
+    background-image: url(../Images/Main/Large/iphone14__fjmsqstr1ceq_large.jpg);
+  }
+
+  .third-photo-wrapper{
+background-image: url(../Images/Main/Large/Creativity_large.jpg);
+  }
+.fourth-left-cover{
+  background-image: url(../Images/Main/Large/apple_watch_series_8__ch7rexplmihe_large.jpg);
+}
+.fourth-right-cover{
+    background-image: url(../Images/Main/Large/ipad__fioegapg12qi_large.jpg);
+}
+/* .fifth-left-cover{
+  background-image: url(../Images/Main/Large/);
+} */
+.fifth-right-cover{
+  background-image: url(../Images/Main/Large/homepod__f7jnolq94m2y_large.jpg);
+}
+.sixth-left-cover{
+  background-image: url(../Images/Main/Large/airpods_pro_avail__gaxggskofx6y_large.jpg);
+}
+.sixth-right-cover{
+    background-image: url(../Images/Main/Large/apple-card-large.jpg);
+}
+.sixth-left-cover,.fifth-left-cover,.fourth-left-cover{
+  margin-right: 10px;
+}
+}
+
+
+.slides{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.slides > div{
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  height: 300px;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  /* background: #74abe2; */
+  justify-content: space-around;
+  align-items: center;
+  font-size: 100px;
+}
+
+.product-title {
+	font-weight: 700;
+	font-size: 56px;
+}
+.title-wraper.bold {
+	  	font-weight: 700;
+	font-size: 56px;
+	}
+
+  .brief-description {
+	font-size: 2em;
+}
